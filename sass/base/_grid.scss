@@ -3,11 +3,11 @@
 	max-width: 100%;
 }
 
-.hidden{
+.hidden {
 	display: none !important;
 }
 
-.grid-5-in-row{
+.grid-5-in-row {
 	width: 20%;
 }
 
@@ -34,7 +34,7 @@
 	}
 }
 
-.container{
+.container {
 	margin: 0 auto;
 	width: 100%;
 	max-width: $container_width;
@@ -47,7 +47,7 @@
 	}
 }
 
-.row{
+.row {
 	display: flex;
 	flex-wrap: wrap;
 	margin-left: -$gutter;
@@ -82,24 +82,24 @@
 	}
 }
 
-.row-ng{
+.row-ng {
 	display: flex;
 	flex-wrap: wrap;
 }
 
-.clearfix{
-	&:before{
+.clearfix {
+	&:before {
 		content: " ";
 		display: table;
 	}
-	&:after{
+	&:after {
 		content: " ";
 		display: table;
 		clear: both;
 	}
 }
 
-.img-responsive{
+.img-responsive {
 	width: 100%;
 	height: auto;
 }

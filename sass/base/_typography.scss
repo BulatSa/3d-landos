@@ -30,16 +30,16 @@ h1, .h1 {
 h2, .h2 {
 	font-family: $font-head;
 	font-weight: bold;
-	font-size: 40px;
+	font-size: 28px;
 	line-height: 1.2;
 	@include res(xxl){
-		font-size: 36px;
+		font-size: 24px;
 	}
 	@include res(l){
-		font-size: 26px;
+		font-size: 20px;
 	}
 	@include res(s){
-		font-size: 20px;
+		font-size: 18px;
 	}
 }
 
@@ -58,14 +58,17 @@ h3, .h3 {
 	font-family: $font;
 	font-size: 14px;
 	line-height: 1.4;
+	@include res(l) {
+		font-size: 12px;
+	}
 
 	h1,.h1,h2,.h2,h3,.h3,h4,.h4,h5,.h5{
-		margin-bottom: 25px;
+		margin-bottom: 15px;
 	}
 
 	p, ul, ol, table, img, .img-descr,iframe,.fluid-width-video-wrapper{
 		position: relative;
-		margin-bottom: 25px;
+		margin-bottom: 20px;
 		@include res(l) {
 			margin-bottom: 15px;
 		}
