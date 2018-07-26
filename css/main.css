@@ -1,20 +1,11 @@
-.s-about, .s-result {
+.s-about, .s-result, .s-table {
   padding: 80px 0; }
   @media (max-width: 1400px) {
-    .s-about, .s-result {
+    .s-about, .s-result, .s-table {
       padding: 60px 0; } }
   @media (max-width: 680px) {
-    .s-about, .s-result {
+    .s-about, .s-result, .s-table {
       padding: 40px 0; } }
-
-.s-preims {
-  padding: 0 0 80px 0; }
-  @media (max-width: 1400px) {
-    .s-preims {
-      padding: 0 0 60px 0; } }
-  @media (max-width: 680px) {
-    .s-preims {
-      padding: 0 0 40px 0; } }
 
 body.compensate-for-scrollbar {
   overflow: hidden; }
@@ -2147,3 +2138,60 @@ button::-moz-focus-inner {
     @media (max-width: 1024px) {
       .preim__descr {
         padding: 0 15px 15px 15px; } }
+
+.s-table {
+  background: #171821;
+  color: #FFF; }
+  .s-table__title {
+    margin-bottom: 25px; }
+
+.tech-table {
+  line-height: 1.2; }
+  .tech-table__more {
+    text-align: center;
+    padding-top: 30px; }
+    @media (max-width: 680px) {
+      .tech-table__more {
+        padding-top: 20px; } }
+    .tech-table__more a {
+      color: #2f7bff;
+      transition: all 0.3s ease;
+      white-space: nowrap; }
+      .tech-table__more a i {
+        display: inline-block;
+        font-size: 8px;
+        margin-left: 5px; }
+      .tech-table__more a:hover {
+        color: #FFF; }
+
+.tech-table--hide {
+  display: none; }
+  .tech-table--hide i {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    position: relative;
+    top: -0.2em; }
+
+.tech-row {
+  border-top: 1px solid #5f6489;
+  padding: 12px 10px; }
+  @media (max-width: 680px) {
+    .tech-row {
+      padding: 8px 10px; } }
+  .tech-row:first-child {
+    border-top: none; }
+  .tech-row__key {
+    display: inline-block;
+    vertical-align: top;
+    color: #5f6489;
+    width: 290px; }
+    @media (max-width: 680px) {
+      .tech-row__key {
+        display: block;
+        width: 100%;
+        margin-bottom: 4px; } }
+  .tech-row__value {
+    display: inline-block;
+    vertical-align: top; }
+  .tech-row--hidden {
+    display: none; }

@@ -148,4 +148,69 @@
 </section>
 
 
+<section class="s-table">
+	<div class="container">
+		<p class="h1 s-table__title">Техническая спецификация</p>
+
+		<div class="tech-table">
+			<div class="tech-row">
+				<div class="tech-row__key">Бренд:</div>
+				<div class="tech-row__value">Picaso</div>
+			</div>
+			<div class="tech-row">
+				<div class="tech-row__key">Страна производитель:</div>
+				<div class="tech-row__value">РОССИЯ</div>
+			</div>
+			<div class="tech-row">
+				<div class="tech-row__key">Габариты товара, см:</div>
+				<div class="tech-row__value">49.2 x 39 x 43</div>
+			</div>
+			<div class="tech-row">
+				<div class="tech-row__key">Габариты в упаковке, см:</div>
+				<div class="tech-row__value">69 х 50 х 47</div>
+			</div>
+			<div class="tech-row">
+				<div class="tech-row__key">Вес нетто, кг:</div>
+				<div class="tech-row__value">16</div>
+			</div>
+			<div class="tech-row">
+				<div class="tech-row__key">Вес брутто, кг:</div>
+				<div class="tech-row__value">20</div>
+			</div>
+			<div class="tech-row">
+				<div class="tech-row__key">Дисплей:</div>
+				<div class="tech-row__value">Да</div>
+			</div>
+			<div class="tech-row">
+				<div class="tech-row__key">Температура хранения, °C:</div>
+				<div class="tech-row__value">0° - 32°С</div>
+			</div>
+
+			<div class="tech-row tech-row--hidden">
+				<div class="tech-row__key">Вес нетто, кг:</div>
+				<div class="tech-row__value">16</div>
+			</div>
+			<div class="tech-row tech-row--hidden">
+				<div class="tech-row__key">Вес брутто, кг:</div>
+				<div class="tech-row__value">20</div>
+			</div>
+			<div class="tech-row tech-row--hidden">
+				<div class="tech-row__key">Дисплей:</div>
+				<div class="tech-row__value">Да</div>
+			</div>
+			<div class="tech-row tech-row--hidden">
+				<div class="tech-row__key">Температура хранения, °C:</div>
+				<div class="tech-row__value">0° - 32°С</div>
+			</div>
+		</div>
+
+		<div class="tech-table__more">
+			<a href="#" rel="nofollow" class="tech-table--show">Смотреть все параметры <i class="i-down"></i></a>
+			<a href="#" rel="nofollow" class="tech-table--hide">Свернуть <i class="i-down"></i></a>
+		</div>
+
+	</div>
+</section>
+
+
 <?php include('footer.php'); ?>

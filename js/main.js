@@ -174,7 +174,28 @@ $(function($){
 			x3: 20
 		 }
 	 });
-})
+});
 /***********************
 Sliders END
+***********************/
+
+/***********************
+tech-table BEGIN
+***********************/
+$(function($){
+	$('.tech-table--show').on('click',function (e) {
+		e.preventDefault();
+		$('.tech-row--hidden').slideDown(200);
+		$(this).hide();
+		$('.tech-table--hide').show();
+	});
+	$('.tech-table--hide').on('click',function (e) {
+		e.preventDefault();
+		$('.tech-row--hidden').slideUp(200);
+		$(this).hide();
+		$('.tech-table--show').show();
+	})
+});
+/***********************
+tech-table END
 ***********************/
