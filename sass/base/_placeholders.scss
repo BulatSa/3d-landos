@@ -1,0 +1,18 @@
+%link-blue-hover{
+	transition: color 0.3s ease;
+
+	&:hover,&:focus{
+		outline: none;
+		color: $blue;
+	}
+}
+
+%link-blue{
+	color: $blue;
+	transition: color 0.3s ease;
+
+	&:hover,&:focus{
+		outline: none;
+		color: #000;
+	}
+}
